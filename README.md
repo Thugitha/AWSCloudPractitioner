@@ -1,5 +1,12 @@
 
+# Shared responsibility
+
 ![shared responsibility model](pics/sharedResMod.png)
+
+- AWS responsible for **security of the cloud** = protecting the infrastructure (hardware, software, networking and other facilities) that runs services. 
+
+- Customer responsible for **security in the cloud** = management of the guest operating system (including updates and security patches), any application software or utilities installed on the instances, and the configuration of the AWS-provided firewall (security group) on each instance. The responsibility of managing own data (including encryption options), classifying assets, and using IAM tools to apply the appropriate permissions lies with the customer.
+
 
 # instance type 
 
