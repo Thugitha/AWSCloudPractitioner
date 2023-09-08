@@ -1,5 +1,5 @@
 
-![shared responsibility model](sharedResMod.png)
+![shared responsibility model](pics/sharedResMod.png)
 
 # instance type 
 
@@ -108,7 +108,7 @@ You can think of input operations as data put into a system, such as records ent
 
 
 
-![Auto Scaling Group](autoScal.png)
+![Auto Scaling Group](pics/autoScal.png)
 
 - **minimum capacity** is the number og EC2 instances that launch immediately after you have created the Auto Scaling Group
 
@@ -159,7 +159,7 @@ Applications are made of multiple components. The components communicate with ea
 
 ## Monolithic application 
 
-![Monolithic approach](monoApp.png)
+![Monolithic approach](pics/monoApp.png)
 
 Monolithic application is an application with tightly coupled components, this could include databases, servers, user interface, business logic etc. In this approach to application architecture, if a single component fails, other components fail, and possibly the entire application fails.
 
@@ -167,7 +167,7 @@ Monolithic application is an application with tightly coupled components, this c
 
 ## Microservices 
 
-![Microservice approach](microApp.png)
+![Microservice approach](pics/microApp.png)
 
 Designing your application through a microservices approach can assure availability when a single component fail. Microservices are loosely coupled, so the other components continues to communicate with each other even though one component fails. 
 
@@ -192,7 +192,7 @@ AWS Lambda is a service that lets you run code without needing to provision or m
 - No provisioning or managing servers 
 
 
-![How AWS Lambda works](lamda_function.png)
+![How AWS Lambda works](pics/lamda_function.png)
 
 - upload your code to Lambda
 - set your code to trigger from an event source, such as aws services, mobile applications, or HTTP endpoint
@@ -317,7 +317,7 @@ Subnets are chunks of IP addresses in your VPC that allow you to group resources
 
 To allow public traffic from the internet to access your vpc, you attach an internet gateway to the vpc. 
 
-![Internet gateway](internet_gateway.png)
+![Internet gateway](pics/internet_gateway.png)
 
 An internet gateway is a connection between a VPC and the internet, without it no one can access the resources within the VPC 
 
