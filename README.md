@@ -192,8 +192,7 @@ AWS Lambda is a service that lets you run code without needing to provision or m
 - No provisioning or managing servers 
 
 
-![How AWS Lambda works](pics/lamda_function.png)
-
+![How AWS Lambda works](pics/lambda_function.png)
 - upload your code to Lambda
 - set your code to trigger from an event source, such as aws services, mobile applications, or HTTP endpoint
 - Lambda runs your code only when triggered
@@ -209,7 +208,7 @@ Compute services
 
 Containers 
 
-![container set up](container.png)
+![container set up](pics/container.png
 
  The applications environment remains consistent regardless of deployment when containerized approach is used.
 
