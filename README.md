@@ -1,4 +1,4 @@
-#AWS Cloud practitioner
+# AWS Cloud practitioner
 
 ## Shared responsibility
 
