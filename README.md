@@ -208,7 +208,7 @@ Compute services
 
 Containers 
 
-![container set up](pics/container.png
+![container set up](pics/container.png)
 
  The applications environment remains consistent regardless of deployment when containerized approach is used.
 
