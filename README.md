@@ -75,24 +75,24 @@ You can think of input operations as data put into a system, such as records ent
 
 
 ## EC2 Instance Savings Plans 
-    AWS offers EC2 Instance Savings Plans, which provide cost savings for Amazon EC2 instances when you commit to a certain hourly spend for a 1-year or 3-year term. This commitment can result in savings of up to 72% compared to On-Demand rates. Usage up to the commitment is billed at the discounted Savings Plans rate, while any usage beyond it is charged at regular On-Demand rates.
+AWS offers EC2 Instance Savings Plans, which provide cost savings for Amazon EC2 instances when you commit to a certain hourly spend for a 1-year or 3-year term. This commitment can result in savings of up to 72% compared to On-Demand rates. Usage up to the commitment is billed at the discounted Savings Plans rate, while any usage beyond it is charged at regular On-Demand rates.
 
-    These plans offer flexibility because they cover all EC2 instances within a chosen family and Region, without requiring you to specify instance types, sizes, OS, or tenancy upfront. Unlike Reserved Instances, you're not bound to a specific number of instances over the term, and there's no capacity reservation option.
+These plans offer flexibility because they cover all EC2 instances within a chosen family and Region, without requiring you to specify instance types, sizes, OS, or tenancy upfront. Unlike Reserved Instances, you're not bound to a specific number of instances over the term, and there's no capacity reservation option.
 
-    *AWS Cost Explorer can help you analyze your EC2 usage and provide customized recommendations for Savings Plans, estimating potential monthly cost savings based on your historical usage and commitment amount.*
+*AWS Cost Explorer can help you analyze your EC2 usage and provide customized recommendations for Savings Plans, estimating potential monthly cost savings based on your historical usage and commitment amount.*
 
 ## Spot instances 
-    - Ideal for workloads with flexible start and end times, or that can withstand interruptions. 
-    - spot instances use unused amazon EC2 computing capacity (up tp 90% off On-Demand prices)
+- Ideal for workloads with flexible start and end times, or that can withstand interruptions. 
+- spot instances use unused amazon EC2 computing capacity (up tp 90% off On-Demand prices)
     
-        To run a background processing job that can be started and stopped without affecting your business operations, you can use Amazon EC2 Spot Instances. These instances launch when capacity is available, causing potential delays if capacity is unavailable. Once launched, Spot Instances may be interrupted if capacity becomes scarce or demand increases. While interruptions may not impact background processing, it's recommended to choose a more suitable EC2 instance type for tasks like application development and testing to avoid unexpected interruptions.
+To run a background processing job that can be started and stopped without affecting your business operations, you can use Amazon EC2 Spot Instances. These instances launch when capacity is available, causing potential delays if capacity is unavailable. Once launched, Spot Instances may be interrupted if capacity becomes scarce or demand increases. While interruptions may not impact background processing, it's recommended to choose a more suitable EC2 instance type for tasks like application development and testing to avoid unexpected interruptions.
 
 
 ## Dedicated Hosts    
-    - physical servers with Amazon EC2 instance capacity that is fully dedicated to your use 
-    - existing per-socket, per-core, or per-VM software licenses can be used to help maintain license compliance. On-Demand Dedicated Hosts   and Dedicated Hosts Reservations could be purchased.
+- physical servers with Amazon EC2 instance capacity that is fully dedicated to your use 
+- existing per-socket, per-core, or per-VM software licenses can be used to help maintain license compliance. On-Demand Dedicated Hosts   and Dedicated Hosts Reservations could be purchased.
     
-    **Dedicated Hosts are the most expensive.**
+**Dedicated Hosts are the most expensive.**
 
 
 # scaling amazon EC2
@@ -101,8 +101,8 @@ You can think of input operations as data put into a system, such as records ent
 
 *Amazon EC2 Auto scaling can make the scaling process happen automatically for EC2 instances*
 
-        - Dynamic scaling responds to changing demand. 
-        - Predictive scaling automatically schedules the right number of Amazon EC2 instances based on predicted demand.
+- Dynamic scaling responds to changing demand. 
+- Predictive scaling automatically schedules the right number of Amazon EC2 instances based on predicted demand.
 
 **dynamic and predicitve scaling can be used together, this will provide faster scaling**
 
