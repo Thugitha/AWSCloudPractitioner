@@ -1,5 +1,6 @@
+#AWS Cloud practitioner
 
-# Shared responsibility
+## Shared responsibility
 
 ![shared responsibility model](pics/sharedResMod.png)
 
