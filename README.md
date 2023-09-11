@@ -390,9 +390,12 @@ For example, suppose that you want to visit AnyCompany’s website.
 3. The company DNS server responds by providing the IP address for AnyCompany’s website, 192.0.2.0.
 
 
+
 #### Route 53
 
-Amazon Route 53(opens in a new tab) is a DNS web service. It gives developers and businesses a reliable way to route end users to internet applications hosted in AWS. 
+Amazon Route 53 is a DNS web service which connects user requests to infrastructure running in AWS, such as EC2 instances and load balancers. It gives developers and businesses a reliable way to route end users to internet applications hosted in AWS. 
+
+Route 53 is also able to manage the DNS records for domain names. New domain names can be registered directly in Route 53 and DNS records for existing domain names managed by other domain registrars can be transfered, which makes it possible to manage all domain  names within a singel location. 
 
 
 - latency-based routing
